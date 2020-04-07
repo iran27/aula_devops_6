@@ -1,0 +1,10 @@
+#linguagem do travis
+
+
+language: python
+python:
+        - "3 . 8"
+script:
+        - cd src; python testes.py
+
+
